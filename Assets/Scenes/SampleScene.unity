@@ -210,7 +210,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 0, y: 100, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -347,3 +347,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _levelCount: 5
   _beam: {fileID: 4944880507079767189, guid: 3f69dfb678982764699007738d01f278, type: 3}
+  _spawnPlatform: {fileID: 8349707176960019018, guid: 45f8bbe2a89447c4bb2364f255a2893a, type: 3}
+  _finishPlatfom: {fileID: 721630754588444499, guid: b7aa9701e6abe5b47a2b5ce82b184fb6, type: 3}
+  _platfoms:
+  - {fileID: 3704571338309664467, guid: bd2fad8878b9f7b4f8307721b6b59f2b, type: 3}
