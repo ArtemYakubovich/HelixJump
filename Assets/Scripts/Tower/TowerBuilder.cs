@@ -13,7 +13,7 @@ public class TowerBuilder : MonoBehaviour
 
     public float BeamScaleY => _levelCount / 2f + _startAndFinishAdditionalScale + _additioanalScale / 2f;
     
-    private void Start()
+    private void Awake()
     {
         Build();
     }
